@@ -1,0 +1,1 @@
+{"id":"0001099511627776-0000000001","contract_id":"CABC","ledger":256000,"type":"contract","tx_hash":"tx-a","tx_index":1,"op_index":0,"topics":[{"symbol":"transfer"}],"value":{"i128":"10"}}
