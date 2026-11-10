@@ -17,5 +17,6 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: '1.25.x'
+      - run: go mod edit -replace github.com/EventReconcile/EventReconcile-core=./EventReconcile-core
       - run: go vet ./...
       - run: go test ./...
